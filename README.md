@@ -90,4 +90,3 @@ This application is designed to be effortlessly deployed across Vercel and Rende
 2. Set the Root Directory to `client`.
 3. Add the `REACT_APP_BACKEND_URL` environment variable containing the live Render endpoint URL.
 4. Deploy!
-
