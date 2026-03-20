@@ -7,13 +7,12 @@
 ## 🌟 Key Features
 - **Intelligent Data Extraction:** Upload PDF or Text files and extract custom key-value pairs purely based on natural language queries.
 - **Interactive Document Chat:** Ask endless follow-up questions directly within the UI, keeping the document's context entirely memory-resident.
-- **Glassmorphism UI:** A sleek, fully-responsive dashboard featuring dynamic CSS constraints, fluid animations, and a premium visual aesthetic.
 - **n8n Email Workflow Automation:** Trigger a configurable webhook endpoint that compiles the document data and chat transcript, sending a beautifully formatted final email directly to an inbox of your choice via n8n's Gmail integration.
 
 ---
 
 ## ⚙️ Technology Stack
-- **Frontend:** React.js, Custom CSS
+- **Frontend:** React.js
 - **Backend:** Node.js, Express.js
 - **AI Processing:** [Groq Cloud](https://console.groq.com/) (Model: `llama-3.1-8b-instant`)
 - **Workflow Automation:** [n8n](https://n8n.io/)
@@ -92,4 +91,3 @@ This application is designed to be effortlessly deployed across Vercel and Rende
 3. Add the `REACT_APP_BACKEND_URL` environment variable containing the live Render endpoint URL.
 4. Deploy!
 
-*(For full step-by-step instructions, see the bundled `deployment-guide.md` if available).*
